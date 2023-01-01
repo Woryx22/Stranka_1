@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: rgb(187, 187, 187);
+}
 #container{
     width: 80%;
     margin: 0 auto;
@@ -13,4 +16,19 @@ header{
 header h1 {
     color: white;
     text-align: center;
+}
+#obr{
+    margin: 0 auto;
+    display: block;
+    width:fit-content;
+}
+.text h2{
+position:relative;
+text-align: center;
+margin-top: -0.5rem;
+}
+.text p {
+    background-color: #3578E5;
+    color: white;
+    padding: 0.5rem 0.8rem;
 }
