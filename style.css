@@ -12,6 +12,7 @@ body{
 }
 header{
     background-color: #3578E5;
+    margin-bottom: 1rem;
 }
 header h1 {
     color: white;
@@ -23,12 +24,51 @@ header h1 {
     width:fit-content;
 }
 .text h2{
-position:relative;
 text-align: center;
-margin-top: -0.5rem;
+color: #3578E5;
+margin-bottom: 1rem;
 }
 .text p {
     background-color: #3578E5;
     color: white;
     padding: 0.5rem 0.8rem;
+    margin-bottom: 1rem;
+}
+form input{
+    margin-top: 1rem;
+    border: 2px solid gray;
+    border-radius: 10px;
+    height: 1.4rem;
+    width: 15rem;
+    text-align: center;
+}
+form{
+    margin: 0 auto;
+    width: max-content;
+}
+input[type=submit]:hover{
+    background-color: white;
+    color: #3578E5;
+    font-weight: 600;
+    border: 2px solid #3578E5;
+}
+input[type=submit]{
+    background-color: #3578E5;
+    color: white;
+    border: none;
+}
+input:hover{
+    border-color: #3578E5;
+}
+input:focus{
+    outline: none;
+}
+
+footer p{
+    background-color:#3578E5;
+    color: white;
+    padding-left: 15px;
+    position: fixed;
+    bottom: 0;
+    width:80%
 }
