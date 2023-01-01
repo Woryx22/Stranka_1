@@ -3,3 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+#container{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    background-color: #3578E5;
+}
+header h1 {
+    color: white;
+    text-align: center;
+}
